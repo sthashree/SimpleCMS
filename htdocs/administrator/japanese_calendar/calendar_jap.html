@@ -1,0 +1,32 @@
+<html>
+    <head>
+      <script type="text/javascript" src="jkl-opacity.js" charset="Shift_JIS"></script>
+      <script type="text/javascript" src="jkl-calendar.js" charset="Shift_JIS"></script>
+      <script>
+        var cal1 = new JKL.Calendar("calid","formid","colname");
+      </script>
+       <script>
+    var cal2 = new JKL.Calendar("caldiv2","formid","start_date");
+    cal2.setStyle( "frame_color", "#3333CC" );
+    var cal3 = new JKL.Calendar("caldiv3","formid","last_date");
+    cal3.setStyle( "frame_color", "#CC3333" );
+</script>
+    </head>
+    <body>
+      <form id="formid" action="">
+        <input type="text" name="colname" onClick="cal1.write();" onChange="cal1.getFormValue(); cal1.hide();"><br>
+        <div id="calid"></div>
+            
+     
+<table><tr>
+    <td>日付範囲を選択：</td>
+    <td><input type="text" name="start_date" onClick="cal3.hide(); cal2.write();" 
+        onChange="cal2.getFormValue(); cal2.hide();"><br><div id="caldiv2"></div></td>
+    <td>～</td>
+    <td><input type="text" name="last_date" onClick="cal2.hide(); cal3.write();" 
+        onChange="cal3.getFormValue(); cal3.hide();"><br><div id="caldiv3"></div></td>
+</tr></table>
+</form>
+
+    </body>
+  </html>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translation>
+	<home>ホーム</home>
+	<logout>ログアウト</logout>
+	<posted-by>編集者</posted-by>
+	<edit>編集</edit>
+	<delete>削除</delete>
+	<publish>表示</publish>
+	<unpublish>非表示</unpublish>
+	<btn-reset>リセット</btn-reset>
+	<btn-filter>フィルター</btn-filter>
+	<btn-select>選ぶ</btn-select>
+	<label-published>表示</label-published>
+	<label-homepage>ホームページに表示</label-homepage>
+	<label-status>状態</label-status>
+	<label-short-desc>Short Description</label-short-desc>	
+	<label-description>詳細</label-description>
+	<label-unique-name>Uniqeな名前</label-unique-name>
+	<action>アクション</action>
+	<welcome>ようこそ</welcome>
+	<menu-icon>メニュアイコン</menu-icon>
+	<article-icon>記事アイコン</article-icon>
+	<activity-feed>活動</activity-feed>
+	<category-icon>カタゴリーアイコン</category-icon>
+	<menu-num>メニュModule</menu-num>
+	<language-num>言語</language-num>
+	<category-num>カタゴリー</category-num>
+	<article-num>記事</article-num>
+	<view-all>全てを表示</view-all>
+	<search>検索</search>
+	<search-result-label>検索結果</search-result-label>
+	<no-result-label>対象の記事が見つかりませんでした。検索keywordを変更しても一回検索してください。</no-result-label>
+	<last-modified>最終変更</last-modified>
+	<user-notification-alias>このアリアスに英語を使ってください</user-notification-alias>
+	<preview>プレビュー</preview>
+	<comment>コメント</comment>
+	<captchaError>Captcha Error</captchaError>
+	<label-order>表示順番</label-order>
+	<previous>前のページ</previous>
+	<next>次のページ</next>
+	<front>おもて</front>
+	<back>うら</back>
+	<contact>お問い合わせ</contact>
+	<user> ユーザ
+		<manage-user> ユーザ　管理</manage-user>
+		<manage-user-type> ユーザ　カテゴリーの管理</manage-user-type>
+		<manage-user-role>ユーザのロール管理</manage-user-role>
+		<usergroup-new> ユーザグルップの追加</usergroup-new>
+		<usergroup-list>ユーザグルップのリスト</usergroup-list>
+		<user-new> ユーザ追加</user-new>
+		<usertype> ユーザタイプ</usertype>
+		<user-list>ユーザリスト</user-list>
+		<role>ロール</role>
+		<label-username>ユーザー名</label-username>
+		<label-password> パスワード </label-password>
+		<login>ログイン</login>
+		<label-repassword> パスワードの再確認</label-repassword>
+		<type-title>タイトル</type-title>
+		<type-title-alias>タイトルのアリアス</type-title-alias>
+		<label-mobile>携帯電話</label-mobile>
+		<label-modified-on>変更日</label-modified-on>
+		<label-name>氏名</label-name>
+		<user-role>タイプ</user-role>
+		<btn-add>メンバー登録</btn-add>
+		<addUserNotice>下記のフォームに必要な情報を挿入してください。</addUserNotice>
+		
+		<registration> メンバー登録</registration>
+	</user>
+	
+	<menu>メニュ
+			<menu-new-name>新メニュ</menu-new-name>
+			<menu-view-name>メニュの管理</menu-view-name>
+			<add-title>新しいメニュmodule追加</add-title>
+			<edit-title>編集</edit-title>
+			<label-mod-name>Moduleの名前</label-mod-name>
+			<label-position>ラベルの位置</label-position>
+			<btn-add>メニュ追加</btn-add>
+			<btn-update>メニュ更新</btn-update>
+			<view-title>メニュ管理</view-title>
+	</menu>
+	<menu-item>新メニュ項目
+				<menuitem-new-name>新メニュ項目</menuitem-new-name>
+				<add-title>メニュ項目の追加</add-title>
+				<edit-title>メニュ項目の編集</edit-title>
+				<label-module>表示Module</label-module>
+				<label-name>表示項目名</label-name>
+				<label-parent>親項目</label-parent>
+				<label-article-select>記事</label-article-select>
+				<btn-add>メニュ項目の追加</btn-add>
+				<btn-update>メニュ項目の更新</btn-update>
+				<label-link>ラベルへのリンク</label-link>
+				<label-order>表示順番</label-order>
+				<label-visible>表示する</label-visible>
+				<view-title>既に作成されているメニュ項目一覧</view-title>
+	</menu-item>
+	
+	<category>カタゴリ管理
+		<category-new-name>新カタゴリ</category-new-name>
+		<category-label>カタゴリの名前</category-label>
+		<btn-add>カタゴリ追加</btn-add>
+		<btn-update>カタゴリ更新</btn-update>
+		<view-title>かたごり管理</view-title>
+		<add-title>カテゴリを追加</add-title>
+		<edit-title>カテゴリを更新</edit-title>
+	</category>
+	
+	<content>コンテンツ
+			<content-new-name>コンテンツの記事</content-new-name>
+			<content-articleman-name>コンテンツ管理 </content-articleman-name>
+			<label-title>タイトル</label-title>
+			<label-keyword>検索キーワード</label-keyword>
+			<label-modified-on>更新日</label-modified-on>
+			<label-short-desc>記事の省略</label-short-desc>
+			<label-full-desc>記事の詳細</label-full-desc>
+			<label-meta-desc>メータキーワード</label-meta-desc>
+			<add-title>新しコンテンツ内容</add-title>
+			<edit-title>コンテンツ編集</edit-title>
+			<btn-add>コンテンツの追加</btn-add>
+			<btn-update>コンテンツの更新</btn-update>
+			<view-title>コンテンツのタイトル</view-title>
+	</content>
+	
+	<language>言語管理
+			<language-new-name>新言語</language-new-name>
+			<language-man-name>言語管理</language-man-name>
+			<label-name>言語名前</label-name>
+			<label-abbrebiation>頭文字</label-abbrebiation>
+			<label-logo>ロゴ</label-logo>
+			<add-title>新言語</add-title>
+			<edit-title>言語編集</edit-title>
+			<btn-add>言語を追加</btn-add>
+			<btn-update>言語を更新</btn-update>			
+	</language>
+	
+	<component>コンポーネント</component>
+	<member>Team
+		<member-new-name>新規メンバー</member-new-name>
+		<first-name>名前</first-name>
+		<middle-name>ミドルネーム</middle-name>
+		<last-name>名字</last-name>
+		<member-email>Email</member-email>
+		<label-keyword>Keywords</label-keyword>
+		<label-modified-on>Modified On</label-modified-on>
+		<label-short-desc>Short Description</label-short-desc>
+		<label-full-desc>Full Description</label-full-desc>
+		<label-meta-desc>Meta Description</label-meta-desc>
+		<member-photo>写真</member-photo>
+		<member-label>Member Name</member-label>
+		<btn-add>Add Member</btn-add>
+		<btn-update>Update Member</btn-update>
+		<view-title>Member Manager </view-title>
+		<add-title>Add New Member</add-title>
+		<edit-title>Edit Member</edit-title>
+		<state>State </state>
+		<city>市 </city>
+		<town>町 </town>
+		<street>ストリート番号 </street>
+		<phone>電話 </phone>
+		<mobile>携帯電話 </mobile>
+		<name>名前</name>
+		<address>住所</address>
+		<registration> メンバー登録</registration>
+	</member>
+	
+	<mygallery>ギャラリー
+		<gallery-new>ギャラリーの追加</gallery-new>
+		<viewgallery>ギャラリー管理</viewgallery>
+		<viewphoto>画像管理</viewphoto>
+		<gallery-list>ギャラリー覧</gallery-list>
+		<photo-new> 画像追加</photo-new>
+		<photo-list>画像一覧</photo-list>
+		<configure>設定</configure>
+		<file-size>画像の最大サイズ</file-size>
+		<btn-add>追加</btn-add>
+		<logo-image>ロゴ</logo-image>
+		<gallery-title>タイトル</gallery-title>
+		<gallery-title-alias>タイトルアリアス</gallery-title-alias>
+		<gallery-choose>ギャラリーの選択</gallery-choose>
+		<imageperpage>ページあたりの画像数</imageperpage>
+		<NoImage> 画像がありません</NoImage> 
+		<gallery-label> ギャラリー名</gallery-label>
+		
+	</mygallery>
+	<myproduct>製品管理
+		<viewproduct>製品管理</viewproduct>
+		<viewcategory> カタゴリー管理</viewcategory>
+		<category>カタゴリー</category>
+		<addcategory>カタゴリー 追加</addcategory>
+		<category-title> カタゴリー のタイトル </category-title>
+		<btn-add>カタゴリー追加</btn-add>
+		<category-parent>親カタゴリー</category-parent>
+		<add-product>製品追加</add-product>
+		<product-title>製品 タイトル</product-title>
+		<image>製品の写真</image>
+		<product-price>値段</product-price>
+		<btn-add-product>製品追加</btn-add-product>
+		<is-featured>特別な製品</is-featured>
+		<display_ingallery>ギャラリーへの追加</display_ingallery>
+		<btn-update-product>製品の追加</btn-update-product>
+		<subcategory>子カタゴリー</subcategory>
+		<featured>特別</featured>
+		<config> 設定</config>
+		<tax-percentage> 税</tax-percentage>
+		<delivery-cahrge> 送料</delivery-cahrge>
+		<save-config> 設定の保存 </save-config>
+		<quantity> 量 </quantity>
+		<comment-name>名前 </comment-name>
+		<email>Email</email>
+		<comments>コメント</comments>
+		<shoppingcart>カーと </shoppingcart>
+		<clearcartmessage> 貴方が選んだ商品は下記のとおりです。カートを削除してもよろしいですか？ </clearcartmessage>
+		<ItemsOnCart> 貴方が選んだ商品は下記のとおりです</ItemsOnCart>
+		<goback>  バックへ</goback>
+		<clear> クリア </clear>
+		<deltecart> カートを削除してもよろしいですか？ </deltecart>
+		<deliveryaddress> 送り先 </deliveryaddress>
+		<final> 完了 </final>
+		<continue>続く</continue>
+		<userInfo>  ユーザのインフォ</userInfo>
+		<addtocart>  カートに追加</addtocart>
+		<noItem> tカートに製品がありません </noItem>
+		<product>製品</product>
+		<readmore>続きを読む</readmore>
+		<addtobasket>カートに追加</addtobasket>
+		<addcomment>コメントの追加</addcomment>
+		<postedby>送信者</postedby>
+		<comment>コメント</comment> 
+		<writecomment>コメントを記入してください</writecomment>
+		<todaySpecial> Today Special </todaySpecial>
+	</myproduct>
+	
+	<event>イベント
+		<viewevents>イベントの表示 </viewevents>
+		<add-event>イベント追加 </add-event>
+		<edit-event>イベント編集 </edit-event>
+		<image>画像 </image>
+		<start-date> 開始日程</start-date>
+		<end-date> 終了日程 </end-date>
+		<public> 公開 </public>
+		<new-event> 新しいイベント </new-event>
+		<event-title> イベントのタイトル </event-title>
+		<h>H</h>
+		<m>M</m>
+		<btn-add>イベント追加</btn-add>
+		<btn-update>イベント更新</btn-update>
+	
+	</event>
+	
+	<myblog>ブログ
+		<category-new> 新カタゴリ</category-new>
+		<viewcategory>ｶﾀｺﾞﾘ管理</viewcategory>
+		<viewtitle>ポスト管理</viewtitle>
+		<category-list>カタゴリ一覧</category-list>
+		<blog-list>トピックリスト</blog-list>
+		<add-topic>新ポスト</add-topic>
+		<add-category>新カタゴリ</add-category>
+		<btn-add>カタゴリー追加</btn-add>
+		<logo-image>ロゴ</logo-image>
+		<category-title>タイトル</category-title>
+		<category-title-alias>タイトルのアリアス</category-title-alias>
+		<category-choose>ガラリの選択</category-choose>
+		<add-title> タイトルの追加</add-title>
+		<blog-title> ブログのタイトル</blog-title>
+		<blog-title-alias> ブログタイトルのアリアス</blog-title-alias>
+		<short_content> ブログについて省略説明 </short_content>
+		<content> ブログのコンテンツ </content>
+		<blog-topic> ブログのトピック</blog-topic>
+		<category> カタゴリー</category>
+		<published>表示</published>
+		<btn-add-topic> トピックの追加</btn-add-topic>
+		<btn-edit-topic> トピックの編集</btn-edit-topic>
+		<writecomment> コメントをどうぞ </writecomment>
+		<name> 氏名 </name>
+		<email> Email </email>
+		<noComments> コメントなし </noComments>
+		<writeComments> コメントを書いて下さい </writeComments>
+		<comments> コメント一覧 </comments>
+		<comment>コメント</comment>
+		<posted-by> 送信者</posted-by>
+		<commented-by> コメントした人</commented-by>
+		<NoPost>No Post </NoPost>
+		<posted-by> 送信者 </posted-by>
+	
+	</myblog>
+	<movie>ビデオ
+		<title> タイトル </title>
+		<view>ビデオリスト</view>
+		<download-new-name> 新ビデオ</download-new-name>
+		<finalise>ビデオコンテンツページ</finalise>
+		<movie-link>外部リンク先</movie-link>
+		<internal> 自分のパソコンから</internal>
+		<external> 外部のソースから</external>
+		<movie-link-button> 外部リンクの保存</movie-link-button>
+		<movie-label>ビデオ名</movie-label>
+		<movie-list>ビデオ一覧</movie-list>
+		
+	</movie>
+	<banner>バナー
+	</banner>
+	
+	<chirasi> チラシ
+		<add> チラシの追加 </add>
+		<chirasi-list> チラシ 一覧</chirasi-list>
+		<chirasi-description>下記のチラシをダウンロードして商品一覧を見てください。</chirasi-description>
+	</chirasi>
+	<Front>
+		<TodaySpecial>Information</TodaySpecial>
+		<NewArrival> 新着 </NewArrival>
+		<MostPopular> 注目</MostPopular>
+		<ProductInformation> 商品情報</ProductInformation>
+		<FeaturedProduct>注目商品</FeaturedProduct>
+		<category>商品情報</category>
+		<label-noproduct>このカタゴリーには商品がありません。</label-noproduct>
+		<copyright>CopyRight</copyright> 
+		<search>検索 </search>
+		<go> 検索 </go>
+		<forgetpassword> パスワードを忘れた</forgetpassword>
+		<forgetusername> ユーザー名を忘れた</forgetusername>
+		<signup>新規登録</signup>
+		<gallery> ギャラり一</gallery>
+		<gallery-list>ギャラり一覧</gallery-list>
+		<blog-category> ブログカタゴリー </blog-category>
+		<continue-reading> 続きを読む </continue-reading>
+		<ending_on> 終了日程</ending_on>
+		<starting_on> 開始日程 </starting_on>
+		<save-order>Save Order</save-order>
+		<newpost>新着情報</newpost>
+		<event>イベント</event>
+		<archive>アーカイブ</archive>
+		<calendar>カレンダー</calendar>
+		<rating>評価</rating>
+		<posted-by> 送信者 </posted-by>
+	</Front>
+</translation>

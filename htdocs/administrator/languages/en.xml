@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translation>
+	<home>Home</home>
+	<logout>Log Out</logout>
+	<posted-by>Posted By</posted-by>
+	<edit>Edit</edit>
+	<save>Save</save>
+	<delete>Delete</delete>
+	<desc>Description</desc>
+	<publish>Publish</publish>
+	<unpublish>Un Publish</unpublish>
+	<btn-reset>Reset</btn-reset>
+	<btn-filter>Filter</btn-filter>
+	<btn-select>Choose</btn-select>
+	<label-published>Published</label-published>
+	<label-homepage>Homepage</label-homepage>
+	<label-status>Status</label-status>	
+	<label-description>Description</label-description>
+	<label-unique-name>Unique Name</label-unique-name>
+	<action>Action</action>
+	<welcome>Welcome</welcome>
+	<menu-icon>Menu</menu-icon>
+	<article-icon>Article</article-icon>
+	<activity-feed>Activity Feed</activity-feed>
+	<category-icon>Category</category-icon>
+	<menu-num>Menu Modules</menu-num>
+	<language-num>Languages</language-num>
+	<category-num>Categories</category-num>
+	<article-num>Articles</article-num>
+	<view-all>View All</view-all>
+	<search>Find</search>
+	<search-result-label>Search Result(s) For</search-result-label>
+	<no-result-label>No Result(s) Found, Please try again using different keyword.</no-result-label>
+	<last-modified>Last Modified</last-modified>
+	<label-mobile>Mobile</label-mobile>
+	<label-phone>Phone</label-phone>
+	<label-address>Address</label-address>
+	<order>Order</order>
+	<label-short-desc>Short Description</label-short-desc>
+	<label-full-desc>Full Description</label-full-desc>
+	<comment>comment</comment>
+	<menu>Menus
+			<menu-new-name>New Menu</menu-new-name>
+			<menu-view-name>Menu Manager</menu-view-name>
+			<add-title>Add New Menu Module</add-title>
+			<edit-title>Edit Menu</edit-title>
+			<label-mod-name>Menu Module Name</label-mod-name>
+			<label-position>Position</label-position>
+			<btn-add>Add Menu</btn-add>
+			<btn-update>Update Menu</btn-update>
+			<view-title>Menu Manager</view-title>
+	</menu>
+	<menu-item>New Menu Item
+				<menuitem-new-name>New Menu Item</menuitem-new-name>
+				<add-title>Add New Menu Item</add-title>
+				<edit-title>Edit Menu Item</edit-title>
+				<label-module>Display In</label-module>
+				<label-name>Display Name</label-name>
+				<label-parent>Parent Item</label-parent>
+				<label-article-select>Select Article</label-article-select>
+				<btn-add>Add Menu Item</btn-add>
+				<btn-update>Update Menu Item</btn-update>
+				<label-link>Link</label-link>
+				<label-order>Order</label-order>
+				<label-visible>Visible</label-visible>
+				<view-title>Available Menu Item(s) in </view-title>
+	</menu-item>
+	
+	<category>Category Manager
+		<category-new-name>New Category</category-new-name>
+		<category-label>Category Name</category-label>
+		<btn-add>Add Category</btn-add>
+		<btn-update>Update Category</btn-update>
+		<view-title>Category Manager </view-title>
+		<add-title>Add New Category</add-title>
+		<edit-title>Edit Category</edit-title>
+	</category>
+	
+	<content>Content
+			<content-new-name>New Article</content-new-name>
+			<content-articleman-name>Article Manager</content-articleman-name>
+			<label-title>Title</label-title>
+			<label-keyword>Keywords</label-keyword>
+			<label-modified-on>Modified On</label-modified-on>
+			<label-short-desc>Short Description</label-short-desc>
+			<label-full-desc>Full Description</label-full-desc>
+			<label-meta-desc>Meta Description</label-meta-desc>
+			<add-title>Add New Article</add-title>
+			<edit-title>Edit Article</edit-title>
+			<btn-add>Add Article</btn-add>
+			<btn-update>Update Article</btn-update>
+			<view-title>Article Manager</view-title>
+	</content>
+	
+	<language>Language
+			<language-new-name>New Language</language-new-name>
+			<language-man-name>Language Manager</language-man-name>
+			<label-name>Language Name</label-name>
+			<label-abbrebiation>Abbrebiation</label-abbrebiation>
+			<label-logo>Logo (16 X 16)</label-logo>
+			<add-title>Add New Language</add-title>
+			<edit-title>Edit Language</edit-title>
+			<btn-add>Add Language</btn-add>
+			<btn-update>Update Language</btn-update>			
+	</language>
+	<component>Component</component>
+	<member>Team
+		<member-new-name>New Member</member-new-name>
+		<first-name>First Name</first-name>
+		<middle-name>Middle Name</middle-name>
+		<last-name>Last Name</last-name>
+		<member-email>Email</member-email>
+		<label-keyword>Keywords</label-keyword>
+		<label-modified-on>Modified On</label-modified-on>
+		<label-short-desc>Short Description</label-short-desc>
+		<label-full-desc>Full Description</label-full-desc>
+		<label-meta-desc>Meta Description</label-meta-desc>
+		<member-photo>Member Image</member-photo>
+		<member-label>Member Name</member-label>
+		<btn-add>Add Member</btn-add>
+		<btn-update>Update Member</btn-update>
+		<view-title>Member Manager </view-title>
+		<add-title>Add New Member</add-title>
+		<edit-title>Edit Member</edit-title>
+	</member>
+	<mygallery>My PhotoGallery
+		<gallery-new> Add Gallery</gallery-new>
+		<viewgallery>Gallery Management</viewgallery>
+		<viewphoto>Photo Management</viewphoto>
+		<gallery-list>List Gallery</gallery-list>
+		<photo-new> Add Photo</photo-new>
+		<photo-list>List Photo</photo-list>
+		<configure>Configuration</configure>
+		<file-size>Max. file size</file-size>
+		<btn-add>Add Gallery</btn-add>
+		<logo-image>Logo</logo-image>
+		<gallery-title>Title</gallery-title>
+		<gallery-title-alias>Title Alias</gallery-title-alias>
+		<gallery-choose>Choose Gallery</gallery-choose>
+		<imageperpage>Image Per Page</imageperpage>
+		<NoImage> Image not available</NoImage>
+		
+	</mygallery>
+	<user> Users
+		<manage-user>Manage Users</manage-user>
+		<manage-user-type>Manage User Type</manage-user-type>
+		<manage-user-role>Manage User Role</manage-user-role>
+		<usergroup-new> Add User Group</usergroup-new>
+		<usergroup-list>List User Group</usergroup-list>
+		<manage-user>Manage User</manage-user>
+		<user-new> Add User</user-new>
+		<usertype> Memeber Type</usertype>
+		<user-list>List User</user-list>
+		<role>Roles</role>
+		<label-username>Username</label-username>
+		<label-password> Password </label-password>
+		<label-repassword> RePassword </label-repassword>
+		<type-title>Title</type-title>
+		<type-title-alias>Title Alias</type-title-alias>
+		<label-mobile>Mobile</label-mobile>
+		<label-modified-on>Modified On</label-modified-on>
+		<label-name>Name</label-name>
+		<user-role>Type</user-role>
+	</user>
+	<myproduct>Product Management
+		<viewproduct>Product Management</viewproduct>
+		<viewcategory> Category Management</viewcategory>
+		<category>Category</category>
+		<addcategory>Add Category </addcategory>
+		<category-title> Category Title </category-title>
+		<btn-add>Add Category</btn-add>
+		<category-parent>Parent Category</category-parent>
+		<add-product>Add Product</add-product>
+		<product-title>Product Title</product-title>
+		<image>Product Image</image>
+		<product-price>Price</product-price>
+		<btn-add-product>Add Product</btn-add-product>
+		<is-featured>Featured</is-featured>
+		<display_ingallery>Display In Gallery</display_ingallery>
+		<btn-update-product>Add Product</btn-update-product>
+		<subcategory>SubCategory</subcategory>
+		<featured>Featured</featured>
+		<config> Configuration</config>
+		<tax-percentage> Tax Percentage</tax-percentage>
+		<delivery-cahrge> Delivery Charge</delivery-cahrge>
+		<save-config> Save Config </save-config>
+		<quantity> Quantity </quantity>
+		<shoppingcart>Shopping Cart </shoppingcart>
+		<clearcartmessage> You have following items on your cart. Are you sure want to delete cart </clearcartmessage>
+		<deltecart> Are You sure want to delete cart </deltecart>
+	</myproduct>
+	<event>Events
+		<viewevents>View Events </viewevents>
+		<add-event>Add Event </add-event>
+		<edit-event>Edit Event </edit-event>
+		<image>Image </image>
+		<start-date> Start Date </start-date>
+		<end-date> End Date </end-date>
+		<public> Public </public>
+		<new-event> New Event </new-event>
+		<event-title> Title </event-title>
+		<h>H</h>
+		<m>M</m>
+		<btn-add>Add Event</btn-add>
+		<btn-update>Update Event</btn-update>
+	
+	</event>
+	<myblog>Blog
+		<category-new> Add Gallery</category-new>
+		<viewcategory>Gallery Management</viewcategory>
+		<viewphoto>Photo Management</viewphoto>
+		<category-list>List Gallery</category-list>
+		<photo-new> Add Photo</photo-new>
+		<photo-list>List Photo</photo-list>
+		<configure>Configuration</configure>
+		<file-size>Max. file size</file-size>
+		<btn-add>Add Category</btn-add>
+		<logo-image>Logo</logo-image>
+		<category-title>Title</category-title>
+		<category-title-alias>Title Alias</category-title-alias>
+		<category-choose>Choose Gallery</category-choose>
+		<add-title> Add Title </add-title>
+		<blog-title> Blog Title </blog-title>
+		<blog-title-alias> Blog Title Alias </blog-title-alias>
+		<short_content> Short Content </short_content>
+		<content> Content </content>
+		<blog-topic> Blog Topic</blog-topic>
+		<category> Category</category>
+		<published>Published</published>
+		<btn-add-topic> Add Topic</btn-add-topic>
+		<btn-edit-topic> Edit Topic</btn-edit-topic>
+		<writecomment> Please Write Comment </writecomment>
+		<name> Name </name>
+		<email> Please Write Comment </email>
+		<noComments> No Comments </noComments>
+		<writeComments> Write Your Comments </writeComments>
+		<comments> Comments </comments>
+		<email>Email</email>
+		<name> Name </name>
+		<comment>Comment</comment>
+		<NoPost>No Post </NoPost>
+		
+	</myblog>
+	<Front>
+		<TodaySpecial> Today Special</TodaySpecial>
+		<NewArrival> New Arrival </NewArrival>
+		<MostPopular> Most Popular</MostPopular>
+		<ProductInformation> Product Information</ProductInformation>
+		<FeaturedProduct>Featured Product</FeaturedProduct>
+		<category>Category</category>
+		<label-noproduct> No product On this Category</label-noproduct>
+		<copyright> </copyright> 
+		<search>Product Search </search>
+		<go> Go </go>
+		<forgetpassword> Forget Password</forgetpassword>
+		<forgetusername> Forget Username</forgetusername>
+		<signup> Signup</signup>
+	</Front>
+</translation>

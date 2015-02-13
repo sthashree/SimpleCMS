@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translation>
+	<home>गृहपृष्ठ</home>
+	<logout>बाहिर</logout>
+	<posted-by>प्रकाशक</posted-by>
+	<edit>सम्पादन</edit>
+	<delete>मेट्ने</delete>
+	<publish>प्रकाशित गर्ने</publish>
+	<unpublish>प्रकाशित नगर्ने</unpublish>
+	<btn-reset>रि–सेट</btn-reset>
+	<btn-filter>छान्ने</btn-filter>
+	<btn-select>रोज्नुहोस्</btn-select>
+	<label-published>प्रकाशित</label-published>
+	<label-homepage>गृहपृष्ठमा देखाउने</label-homepage>
+	<label-status>अवस्था</label-status>	
+	<label-description>विवरण</label-description>
+	<label-unique-name>युनिक नाम</label-unique-name>
+	<action>कार्य</action>
+	<welcome>स्वागत</welcome>
+	<menu-icon>मेनु</menu-icon>
+	<article-icon>लेख–रचना</article-icon>
+	<activity-feed>क्रियाकलापहरु</activity-feed>
+	<category-icon>वर्गीकरण</category-icon>
+	<menu-num>मेनु मोडुलस्</menu-num>
+	<language-num>भाषा</language-num>
+	<category-num>वर्गीकरणहरु</category-num>
+	<article-num>लेख–रचनाहरु</article-num>
+	<view-all>सबै हेर्नुहोस्</view-all>
+	<search>खोज्नुस्</search>
+	<search-result-label>नतिजाहरु</search-result-label>
+	<no-result-label>कुनै नतिजा फेला परेन, कृपया पुन प्रयास गर्नुहोस्।</no-result-label>
+	<last-modified>अन्तिममा सम्पादन गरिएका</last-modified>
+	<menu>मेनुहरु
+			<menu-new-name>नयाँ मेनु</menu-new-name>
+			<menu-view-name>मेनु व्यवस्थापन</menu-view-name>
+			<add-title>नयाँ मेनु मोडुल थप्ने</add-title>
+			<edit-title>मेनु सम्पादन</edit-title>
+			<label-mod-name>मेनु मोडुलको नाम</label-mod-name>
+			<label-position>स्थान</label-position>
+			<btn-add>मेनु थप्नुहोस्</btn-add>
+			<btn-update>मेनु अपडेट</btn-update>
+			<view-title>मेनु व्यवस्थापन</view-title>
+	</menu>
+	<menu-item>नयाँ मेनु आइटम
+				<menuitem-new-name>नयाँ मेनु आइटम</menuitem-new-name>
+				<add-title>नयाँ मेनु आइटम थप्नुहोस्</add-title>
+				<edit-title>मेनु आइटम सम्पादन</edit-title>
+				<label-module>प्रदर्शन</label-module>
+				<label-name>प्रदर्शन नाम</label-name>
+				<label-parent>अभिभावक आइटम</label-parent>
+				<label-article-select>लेख/रचना</label-article-select>
+				<btn-add>मेनु आइटम थप्नुहोस्</btn-add>
+				<btn-update>मेनु आइटम अपडेट</btn-update>
+				<label-link>सम्बन्धित पृष्ठ</label-link>
+				<label-order>क्रम</label-order>
+				<label-visible>देखिने</label-visible>
+				<view-title>उपलब्ध मेनु आइटमहरु </view-title>
+	</menu-item>
+	
+	<category>वर्गीकरण व्यवस्थापन
+		<category-new-name>नयाँ वर्गीकरण</category-new-name>
+		<category-label>वर्गीकरण नाम</category-label>
+		<btn-add>वर्गीकरण थप्नुहोस</btn-add>
+		<btn-update>वर्गीकरण अपडेट</btn-update>
+		<view-title>वर्गीकरण व्यवस्थापन</view-title>
+		<add-title>नयाँ वर्गीकरण थप्नुहोस</add-title>
+		<edit-title>वर्गीकरण सम्पदान</edit-title>
+	</category>
+	
+	<content>विषय वस्तु
+			<content-new-name>नयाँ लेख/रचना</content-new-name>
+			<content-articleman-name>लेख/रचना व्यवस्थापन </content-articleman-name>
+			<label-title>शीर्षक</label-title>
+			<label-keyword>खोजीका मुख्य शब्दहरु</label-keyword>
+			<label-modified-on>संशोदित मिति</label-modified-on>
+			<label-short-desc>छोटो विवरण</label-short-desc>
+			<label-full-desc>पूर्ण विवरण</label-full-desc>
+			<label-meta-desc>मेटा विवरण</label-meta-desc>
+			<add-title>नयाँ लेख/रचना थप्नुहोस</add-title>
+			<edit-title>लेख/रचना सम्पादन</edit-title>
+			<btn-add>लेख/रचना थप्नुहोस</btn-add>
+			<btn-update>लेख/रचना अपडेट</btn-update>
+			<view-title>लेख/रचना व्यवस्थापन</view-title>
+	</content>
+	
+	<language>भाषा
+			<language-new-name>नया भाषा</language-new-name>
+			<language-man-name>भाषा व्यवास्थापन</language-man-name>
+			<label-name>भाषाको नाम</label-name>
+			<label-abbrebiation>छोटकरी</label-abbrebiation>
+			<label-logo>लोगो (१६ X १६)</label-logo>
+			<add-title>नयां भाषा थप्नुहोस</add-title>
+			<edit-title>भाषा सम्पादन</edit-title>
+			<btn-add>भाषा थप्नुहोस</btn-add>
+			<btn-update>भाषा अपडेट</btn-update>			
+	</language>
+</translation>

@@ -1,0 +1,372 @@
+body { 
+padding: 0; margin: 0; font-size: 12px; 
+font-family: arial, tahoma, sans-serif; 
+letter-spacing: 1px; 
+line-height: 160%; 
+background: #cdcdcd;
+background-image:  url(../images/background-website.gif);
+background-repeat: repeat-x;
+color: #454545; 
+}
+div { text-align: left; }
+#topOfPage { display: none; }
+#conteiner { width: 730px; padding: 5px 25px 25px 25px; background: #fff; margin-left: auto; margin-right: auto; }
+#header { height: 45px; }
+#logo {	width: 186px; float: left; }
+#search { float: right; padding-top: 8px; text-align: right; width: 225px; }
+#bar { clear: both; background: #cdcdcd; height: 25px; }
+#top { background: url("../images/top.gif") 100% 0 no-repeat #505050; height: 200px; clear: both; }
+#body { clear: both; margin-bottom: 15px; margin-top: 15px; }
+#footer { clear: both; padding-top: 5px; }
+div.block, div.blockDistinct { padding: 10px; padding-bottom: 3px; padding-top: 8px; }
+div.blockDistinct { background: url("../images/corner.gif") no-repeat 100% 100% #f5f5f5;}
+h1, h2 { margin: 0; margin-bottom: 10px; padding: 0; font-weight: normal; font-size: 25px; }
+#top h1 { color: #fff; padding-left: 25px; padding-top: 65px; line-height: 110%;}
+h2 { font-size: 16px; margin-bottom: 5px; color: #000; }
+p {	margin: 0; margin-bottom: 5px; }
+p.right { text-align: right; }
+#footer p {	clear: both; color: #c0c0c0; font-size: 11px; }
+form { margin: 0; }
+fieldset { padding: 0; border: 0; }
+legend { display: none; }
+input { border: 1px solid #c0c0c0; color: #454545; font-size: 11px; letter-spacing: 1px; }
+input.searchText { width: 150px; height: 13px; }
+input.searchSubmit { color: #0080c0; background: #fff; letter-spacing: 1px;	border: 1px solid #fff;	font-size: 12px; width: 45px; height: 19px; margin: 0; padding: 0; }
+#footer li { float: left; padding: 0; height: 15px;	vertical-align: middle;	padding-right: 25px;	font-size: 11px; }
+a:link, a:active, a:visited { text-decoration: none; color: #0080c0; }
+a:link, a:active { color: #0080c0; }
+a:visited { color: #0080c0; }
+#bar a:link, #bar a:active, #bar a:visited { color: #fff; } 
+a img { border: 0; }
+a img:active { border: 0; }
+span.highlight { color: #abd6f1; }
+span.hide { display: none; }
+span.underline { text-decoration: underline; }
+.paginate {
+  border:0px solid #0066FF;
+  padding:0 2px 0 2px;
+  color:#0066FF;
+}
+.current{
+  border:1px solid #0066FF;
+  padding:0 2px 0 2px;
+}
+.inactive{
+  border:0px solid #bbb;
+  padding:0 2px 0 2px;
+  color:#bbb;
+}
+#data form {  /* set width in form, not fieldset (still takes up more room w/ fieldset width */
+  font:100% verdana,arial,sans-serif;
+  margin: 0;
+  padding: 10px;
+  min-width: 600px;
+  max-width: 700px;
+  width: 660px; 
+}
+
+#data form fieldset {
+  /* clear: both; note that this clear causes inputs to break to left in ie5.x mac, commented out */
+  padding: 10px;        /* padding in fieldset support spotty in IE */
+  margin: 0;
+}
+
+#data form fieldset legend {
+	font-size:1.1em; /* bump up legend font size, not too large or it'll overwrite border on left */
+                       /* be careful with padding, it'll shift the nice offset on top of border  */
+}
+#data form label { 
+	display: block;  /* block float the labels to left column, set a width */
+	float: left; 
+	width: 150px; 
+	padding: 0; 
+	margin: 5px 0 0; /* set top margin same as form input - textarea etc. elements */
+	text-align: right; 
+}
+#data form input, #data form textarea, #data form select {
+	/* display: inline; inline display must not be set or will hide submit buttons in IE 5x mac */
+	width:auto;      /* set width of form elements to auto-size, otherwise watch for wrap on resize */
+	margin:5px 0 0 10px; /* set margin on left of form elements rather than right of
+                              label aligns textarea better in IE */
+}
+#conteiner h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  height: 20px; /* background image ie6 */
+  font-weight: lighter;
+  background: url(../images/background-h2.png) repeat-x;
+  padding: 5px;
+}
+/* average */
+.average {
+ width: 199px;
+ border-bottom: 1px solid #EFEFEF;
+ border-right: 1px solid #EFEFEF;
+ float: left;
+ margin-bottom: 10px;
+}
+
+.inner-average {
+  padding: 8px;
+}
+
+.average .title {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 3px;
+  display: block;
+}
+.average .count {
+  font-size: 25px;
+  font-weight: bold;
+  float: left;
+  display: block;
+}
+
+.average .name {
+  color: #333333;
+  display: block;
+  clear: right; /* drop below all link */
+  float: right;
+  font-size: 11px;
+}
+
+.average .all {
+  float: right;
+  display: block;
+  font-size: 11px;
+}
+
+
+.average .down {
+  float: left;
+  background: url(../img/icon-down.gif) no-repeat left center;
+  padding: 0px 0 0px 8px;
+  margin: 8px 0 0 3px;	
+  margin-top: 10px;	
+  color: #B90000;
+  font-size: 11px;
+}
+
+.average .up {
+  float: left;
+  background: url(../images/icon-up.gif) no-repeat left center;
+  padding: 0px 0 0px 8px;
+  margin: 8px 0 0 3px;	
+  color: #7BA400;
+  font-size: 11px;
+}
+/* record */
+.clear-floats {
+  clear: both;
+}
+.content {
+  display: block;
+  padding: 0 10px 0px 10px;
+}
+.record {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #EFEFEF;
+  padding-bottom: 7px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.record .actions  {  
+  font-size: 10px;
+  color: #999999;
+  margin-bottom: 3px;
+  display: block;
+}
+
+.record .type{
+  width: 70px;
+  height: 38px;
+  font-size: 11px;
+  padding-top: 17px;
+  font-weight: bold;  
+  text-align: center;
+  display: block;
+  float: left;
+  margin-right: 5px;
+}
+
+
+.record .comment{
+  background: url(../images/background-comment.gif) no-repeat left center;
+  color: #666666;
+}
+
+.record .post{
+  background: url(../images/background-post.gif) no-repeat left center;
+  color: #666666;
+}
+
+.record .page{
+  background: url(../images/background-page.gif) no-repeat left center;
+  color: #666666;
+}
+
+.record .link{
+  background: url(../images/background-link.gif) no-repeat left center;
+  color: #666666;
+}
+
+.record .media{
+  background: url(../images/background-media.gif) no-repeat left center;
+  color: #666666;
+}
+
+.record .gallery{
+  background: url(../images/background-gallery.gif) no-repeat left center;
+  color: #666666;
+}
+
+.record .newsletter{
+  background: url(../images/background-newsletter.gif) no-repeat left center;
+  color: #666666;
+}
+
+.record .title {
+  font-size: 11px;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 3px;
+  display: block;
+}
+.record .author {
+  font-size: 10px;
+  color: #999999;
+  margin-bottom: 3px;
+  display: block;
+}
+
+.record .when{
+  position:absolute; 
+  font-size: 11px;
+  color: #999999;
+  right: 10px;
+  top: 0px;
+}
+
+.record .tags{
+  position:absolute; 
+  font-size: 11px;
+  color: #999999;
+  right: 10px;
+  top: 15px;
+}
+
+.record .comments{
+  position:absolute; 
+  font-size: 11px;
+  color: #999999;
+  right: 10px;
+  top: 27px;
+}
+
+.record .comment-count a{
+ background: url(../images/icon-comment-off.gif) no-repeat left center;
+ width: 21px;
+ height: 23px;
+ text-align: center;
+ padding-top: 4px;
+ display: block;
+ color: white;
+ font-size: 10px;
+}
+
+.comment-count a:hover {
+ background: url(../images/icon-comment.gif) no-repeat left center;
+ color: black;
+}
+#login {
+  width: 180px;
+  margin: 50px auto 0 auto;
+  text-align: left;
+}
+#login form{
+ margin-top: 10px;
+ margin-left: 10px;
+}
+.datatable {
+border: 1px solid #D6DDE6;
+border-collapse: collapse;
+}
+.datatable td {
+border: 1px solid #D6DDE6;
+padding: 0.3em;
+text-align: center;
+}
+.datatable th {
+border: 1px solid #828282;
+background-color: #ccc;
+font-weight: bold;
+text-align: center;
+padding-left: 0.3em;
+}
+.datatable caption {
+font: bold 110% Arial, Helvetica, sans-serif;
+color: #33517A;
+text-align: left;
+padding: 0.4em 0 0.8em 0;
+}
+.datatable tr.altrow {
+background-color: #DFE7F2;
+color: #000000;
+}
+.datatable tr:hover, .datatable tr.hilite {
+background-color: #FFE;
+color: #000000;
+}
+
+.image-border {
+	padding:2px;
+	border:1px solid #333333;
+}
+
+.photo_image {
+	float:left;
+	width:150px;;
+}
+
+.photo_description {
+	float:left;
+	width:460px;
+}
+
+#data form div.photo_description label{
+	width:100px;
+}
+span#neelam{
+	font-size:10px;
+	}
+	
+div.rightCategory {
+	padding:0;
+	border-left:2px solid #CCCCCC;
+	width:520px;
+	overflow:hidden;
+}
+
+.leftCategory {
+	float:left;
+	width:180px;
+}
+
+div.leftCategory ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+#data .rightCategory form {
+	width:520px;
+	min-width:300px;
+	max-width:530px;
+}
+
+#data .rightCategory form label {
+	width:125px;
+}
